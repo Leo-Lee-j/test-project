@@ -13,4 +13,9 @@ public class TestController {
         return "113322111";
     }
 
+    @GetMapping("/test")
+    public String test() {
+        return "dwdw";
+    }
+
 }
